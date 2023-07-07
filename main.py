@@ -107,7 +107,7 @@ if __name__ == "__main__":
     clearConsole();
     VideoURI = input("Enter video link: ")
     amount = int(input("Desired Amount: "))
-    sendType = int(input("[0] - Views BOT\n[1] - Shares BOT: \n"))
+    sendType = int(input("[0] - Views BOT\t[1] - Shares BOT: "))
     itemID = clearURL(VideoURI)
 
     if sendType == 0:
