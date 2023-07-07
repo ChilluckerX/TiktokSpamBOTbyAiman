@@ -16,3 +16,6 @@ Or if you have python3 installed you can run with this command
 ```bash
 python3 main.py
 ```
+
+TO-DO LIST
+- Using selenium for windows/linux in order to login account tiktok and fetching session token at headers .
