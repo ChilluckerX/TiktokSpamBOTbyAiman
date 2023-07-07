@@ -1,7 +1,7 @@
 # T1ktokSpamBOTbyAiman
 This is my first time creating BOT SPAM, use it as you want and if you want to colaborate you can fork my project !
 
-View BOT - Worked! (Fast As Sh1t)
+View BOT - Worked! (Fast As Sh1t)\n
 Share BOT - Worked! (But slow)
 
 
