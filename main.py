@@ -57,7 +57,7 @@ def sendView(number):
         data=data,
         timeout= 5
     )
-        print(f"Request {number}: {response.text}")
+        print(f"Request {number}")
     except requests.exceptions.ConnectTimeout as e:
         print(f"Request {number}: Connection Timeout")
 
