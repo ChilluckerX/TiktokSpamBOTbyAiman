@@ -50,9 +50,9 @@ def sendView(number):
     }
     apiDomain     = choice(ApiDomain)
 
-    try:
+ try:
         response = requests.post(
-        f'https://{apiDomain}/aweme/v1/aweme/stats/?iid=7252230999672751874&device_id=7252227231014520322&ac=wifi&channel=googleplay&aid=1180&app_name=trill&version_code=300203&version_name=30.2.3&device_platform=android&os=android&ab_version=30.2.3&ssmix=a&device_type=ASUS_I001DA&device_brand=asus&language=en&os_api=28&os_version=9&openudid=9ae85fe97adfbf35&manifest_version_code=300203&resolution=1600*900&dpi=240&update_version_code=300203&_rticket=1688599944988&current_region=MY&app_type=normal&sys_region=US&mcc_mnc=50201&timezone_name=Asia%2FKuala_Lumpur&carrier_region_v2=502&residence=MY&app_language=en&carrier_region=MY&ac2=wifi5g&uoo=0&op_region=MY&timezone_offset=28800&build_number=30.2.3&host_abi=arm64-v8a&locale=en&region=US&content_language=en%2Czh-Hant%2C&ts=1688648323&cdid=82ae2e4c-0952-4875-8c22-d25fce126b67',
+        f'https://api21-core-c-useast2a.tiktokv.com/aweme/v1/aweme/stats/?iid=7252230999672751874&device_id=7252227231014520322&ac=wifi&channel=googleplay&aid=1180&app_name=trill&version_code=300203&version_name=30.2.3&device_platform=android&os=android&ab_version=30.2.3&ssmix=a&device_type=ASUS_I001DA&device_brand=asus&language=en&os_api=28&os_version=9&openudid=9ae85fe97adfbf35&manifest_version_code=300203&resolution=1600*900&dpi=240&update_version_code=300203&_rticket=1688599944988&current_region=MY&app_type=normal&sys_region=US&mcc_mnc=50201&timezone_name=Asia%2FKuala_Lumpur&carrier_region_v2=502&residence=MY&app_language=en&carrier_region=MY&ac2=wifi5g&uoo=0&op_region=MY&timezone_offset=28800&build_number=30.2.3&host_abi=arm64-v8a&locale=en&region=US&content_language=en%2Czh-Hant%2C&ts=1688648323&cdid=82ae2e4c-0952-4875-8c22-d25fce126b67',
         headers=headers,
         data=data,
         timeout= 5
