@@ -72,7 +72,7 @@ def sendView(number):
 
     try:
         response = requests.post(
-            'https://api22-core-c-alisg.tiktokv.com/aweme/v1/aweme/stats/?iid=7254523177588524805&device_id=7254521958107366917&ac=wifi&channel=googleplay&aid=1180&app_name=trill&version_code=300304&version_name=30.3.4&device_platform=android&os=android&ab_version=30.3.4&ssmix=a&device_type=SM-A908N&device_brand=samsung&language=en&os_api=28&os_version=9&openudid=d4bcfda1bbdad09e&manifest_version_code=300304&resolution=1280*720&dpi=240&update_version_code=300304&_rticket=1689081331326&current_region=MY&app_type=normal&sys_region=US&mcc_mnc=50201&timezone_name=Asia%2FKuala_Lumpur&carrier_region_v2=502&residence=MY&app_language=en&carrier_region=MY&ac2=wifi5g&uoo=0&op_region=MY&timezone_offset=28800&build_number=30.3.4&host_abi=arm64-v8a&locale=en&region=US&ts=1689081332&cdid=1894fddb-6132-4c11-9d1d-d7fec0c24a7d',
+            f'https://{apiDomain}/aweme/v1/aweme/stats/?iid=7254523177588524805&device_id=7254521958107366917&ac=wifi&channel=googleplay&aid=1180&app_name=trill&version_code=300304&version_name=30.3.4&device_platform=android&os=android&ab_version=30.3.4&ssmix=a&device_type=SM-A908N&device_brand=samsung&language=en&os_api=28&os_version=9&openudid=d4bcfda1bbdad09e&manifest_version_code=300304&resolution=1280*720&dpi=240&update_version_code=300304&_rticket=1689081331326&current_region=MY&app_type=normal&sys_region=US&mcc_mnc=50201&timezone_name=Asia%2FKuala_Lumpur&carrier_region_v2=502&residence=MY&app_language=en&carrier_region=MY&ac2=wifi5g&uoo=0&op_region=MY&timezone_offset=28800&build_number=30.3.4&host_abi=arm64-v8a&locale=en&region=US&ts=1689081332&cdid=1894fddb-6132-4c11-9d1d-d7fec0c24a7d',
             timeout=5,
             headers=headers,
             data=data,
